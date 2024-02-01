@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KJ GALLERY</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Serif:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- nav-bar -->
+    <nav>
+        <div id="logo"><a href="./index.html">
+                <img id="logo-img" src="./gallary-logo.png" alt="logo-collorpallet">
+                <H1>KJ GALLERY</H1>
+            </a></div>
+        <div id="nav-bar-menu">
+            <ul id="nav-list">
+                <li><a class="navlist-link" href="./products-page.html">Shop</a></li>
+                <li><a class="navlist-link" href="#contact-section">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- hero-section -->
+    <header id="header">
+        <div id="welcome-container">
+            <h1>Welcome to Our Gallery</h1>
+            <p>Discover our uniq and high-quality products</p>
+            <button id="shop-now-button">
+                <a href="./products-page.html">Shop Now!</a>
+            </button>
+        </div>
+        <div><img id="header-photo"
+                src="https://media.istockphoto.com/id/1475654222/photo/mockup-frame-in-boho-minimalist-interior.jpg?s=2048x2048&w=is&k=20&c=7_XkA2FQtAyO-u22pety7ZFyha5uB4MD-K37No8JfDw="
+                alt="prush-photo">
+        </div>
+
+    </header>
+    <div id="main">
+        <!-- sevices-section -->
+        <div id="serv-section">
+            <h2 class="sections-names">Our Services</h2>
+            <div id="serv-cards">
+                <div class="serv-card" id="water-color">
+                    <h2 class="card-name">Water Color</h2>
+                    <div class="serv-card-content">
+                        <img class="serv-card-img"
+                            src="https://images.pexels.com/photos/933967/pexels-photo-933967.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="water color pallet">
+                        <p class="serv-card-p">We offer water color originals and prints with special art style.
+                        </p>
+                    </div>
+                </div>
+                <div class="serv-card" id="charcoal-pencil">
+                    <h2 class="card-name">choracl portrait</h2>
+                    <div class="serv-card-content">
+                        <img class="serv-card-img"
+                            src="https://images.pexels.com/photos/4442045/pexels-photo-4442045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="chorcal painting">
+                        <p class="serv-card-p">
+                            We offer choracl original portraits and original paintings.
+                        </p>
+                    </div>
+                </div>
+                <div class="serv-card" id="ink">
+                    <h2 class="card-name">Ink Marker Prints</h2>
+                    <div class="serv-card-content"><img class="serv-card-img"
+                            src="https://images.pexels.com/photos/4219130/pexels-photo-4219130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="ink marker">
+                        <p class="serv-card-p">
+                            We offer anime ink marker paintings with original anime style.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- trending products -->
+        <div id="trending-products-section">
+            <h2 class="sections-names">Trending Items</h2>
+            <div></div>
+
+            <div id="product-cards">
+                <div class="products">
+                    <h3 class="product-name">product</h3>
+                    <img class="product-img" src="./water.jpg" alt="">
+                    <p class="product-details">the details about the paintnigs like height and width and paper color and
+                        coloring metarials</p>
+                    <div class="product-price">
+                        <img src="./price-tag.png" alt="price tag">
+                        <h3>99$</h3>
+                    </div>
+                    <button><a class="details-button" href="./item-details-page.html">Details</a></button>
+                </div>
+                <div class="products">
+                    <h3 class="product-name">product</h3>
+                    <img class="product-img" src="./self.jpg" alt="">
+                    <p class="product-details">the details about the paintnigs like height and width and paper color and
+                        coloring metarials</p>
+                    <div class="product-price"> <img src="./price-tag.png" alt="price tag">
+                        <h3>29$</h3>
+                    </div>
+                    <button>Details</button>
+                </div>
+                <div class="products">
+                    <h3 class="product-name">product</h3>
+                    <img class="product-img" src="./anime.jpg" alt="">
+                    <p class="product-details">the details about the paintnigs like height and width and paper color and
+                        coloring metarials</p>
+                    <div class="product-price"> <img src="./price-tag.png" alt="price tag">
+                        <h3>65$</h3>
+                    </div>
+                    <button>Details</button>
+                </div>
+
+            </div>
+
+            <a style="align-self: flex-end;" href="./products-page.html">show more items....</a>
+
+
+
+            <!-- contacts-section -->
+            <div id="contact-section">
+                <h2>Contact Us</h2>
+                <p>get in touch with us ask away!</p>
+                <form>
+                    <label for="username">Email</label>
+                    <br>
+                    <input class="input-width email-input" type="text" placeholder="Email" />
+                    <br>
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea class="input-width" rows="10" cols="50" placeholder="Enter your message"></textarea>
+                    <button class="input-width">Submit</button>
+                </form>
+            </div>
+        </div>
+</body>
+
+</html>
